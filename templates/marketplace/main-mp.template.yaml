@@ -659,7 +659,7 @@ Conditions:
   InternetFacingELB:
     !Equals
     - !Ref DSELBPosture
-    - Internet-facing
+    - Internal
   GovCloudCondition:
     !Or
     - !Equals
